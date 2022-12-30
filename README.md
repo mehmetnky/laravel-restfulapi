@@ -6,8 +6,8 @@ A RESTful API template uses Laravel Sanctum for authentication.
 ## Installation Steps
 - `cp .env.example .env`
 -- Set your variables
-- `php artisan key:generate`
 - `composer install && composer update`
+- `php artisan key:generate`
 - `php artisan migrate`
 - `php artisan db:seed`
 -- 1 admin, 3 customer users and 50 orders created via Faker.
